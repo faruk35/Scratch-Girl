@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  
+  <title>Websanova :: wScratchPad</title>
+
+  <!-- filestart -->
+  <link rel="icon" type="image/vnd.microsoft.icon"  href="./demo/img/favicon.ico" />
+  <link rel="Stylesheet" type="text/css" href="./demo/demo.css" />
+  <script type="text/javascript" src="./lib/jquery.1.11.0.min.js"></script>
+  <!-- fileend -->
+</head>
+<body>
+  <!-- headstart -->
+  <header>
+    <a id="header-logo" href="http://websanova.com"></a>
+  </header>
+  <!-- headend -->
+
+  <div id="content">
+    <div class="content-box">
+
+      <div id="demo1" class="scratchpad"></div>
+      <div id="demo1-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo1').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo1').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo1').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo1').wScratchPad('enable', false);"/>
+
+      <div id="demo2" class="scratchpad"></div>
+      <div id="demo2-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo2').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo2').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo2').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo2').wScratchPad('enable', false);"/>
+
+      <div id="demo3" class="scratchpad"></div>
+      <div id="demo3-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo3').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo3').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo3').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo3').wScratchPad('enable', false);"/>
+
+      <div id="demo4" class="scratchpad"></div>
+      <div id="demo4-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo4').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo4').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo4').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo4').wScratchPad('enable', false);"/>
+
+      <div id="demo5" class="scratchpad"></div>
+      <div id="demo5-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo5').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo5').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo5').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo5').wScratchPad('enable', false);"/>
+
+      <div id="demo6" class="scratchpad"></div>
+      <div id="demo6-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo6').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo6').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo6').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo6').wScratchPad('enable', false);"/>
+
+      <div id="demo7" class="scratchpad"></div>
+      <div id="demo7-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo7').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo7').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo7').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo7').wScratchPad('enable', false);"/>
+
+      <div id="demo8" class="scratchpad"></div>
+      <div id="demo8-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo8').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo8').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo8').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo8').wScratchPad('enable', false);"/>
+
+      <div id="demo9" class="scratchpad"></div>
+      <div id="demo9-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demo9').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demo9').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demo9').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demo9').wScratchPad('enable', false);"/>
+
+      <div id="demoa" class="scratchpad"></div>
+      <div id="demoa-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demoa').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demoa').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demoa').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demoa').wScratchPad('enable', false);"/>
+
+      <div id="demob" class="scratchpad"></div>
+      <div id="demob-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demob').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demob').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demob').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demob').wScratchPad('enable', false);"/>
+
+      <div id="democ" class="scratchpad"></div>
+      <div id="democ-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#democ').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#democ').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#democ').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#democ').wScratchPad('enable', false);"/>
+
+      <div id="demod" class="scratchpad"></div>
+      <div id="demod-percent">&nbsp;</div>
+      <input type="button" value="Reset" onclick="$('#demod').wScratchPad('reset');"/>
+      <input type="button" value="Clear" onclick="$('#demod').wScratchPad('clear');"/>
+      <input type="button" value="Enable" onclick="$('#demod').wScratchPad('enable', true);"/>
+      <input type="button" value="Disable" onclick="$('#demod').wScratchPad('enable', false);"/>
+      
+      <style>
+        .scratchpad{
+          width: 38%;
+          height: 630px;
+          border: solid 1px;
+          margin:0 auto;
+        }
+
+        @media (max-width: 500px) {
+          .scratchpad {
+            width: 55%;
+          }
+
+        }
+      </style>
+
+      <script type="text/javascript" src="./wScratchPad.min.js"></script>
+      <script type="text/javascript">
+        $('#demo1').wScratchPad({
+          bg: './images/bad/1.jpg',
+          fg: './images/rashmika.webp',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo1-percent').html(percent);
+          }
+        });
+
+        $('#demo2').wScratchPad({
+          bg: './images/bad/2.jpg',
+          fg: './images/Fantastic/2.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo3').wScratchPad({
+          bg: './images/bad/3.jpg',
+          fg: './images/Fantastic/3.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo4').wScratchPad({
+          bg: './images/bad/4.jpg',
+          fg: './images/Fantastic/4.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo5').wScratchPad({
+          bg: './images/bad/5.jpg',
+          fg: './images/Fantastic/5.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo6').wScratchPad({
+          bg: './images/bad/6.jpg',
+          fg: './images/Fantastic/6.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo7').wScratchPad({
+          bg: './images/bad/7.jpg',
+          fg: './images/fantastic/7.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo8').wScratchPad({
+          bg: './images/bad/8.jpg',
+          fg: './images/fantastic/8.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demo9').wScratchPad({
+          bg: './images/bad/9.jpg',
+          fg: './images/Fantastic/9.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demoa').wScratchPad({
+          bg: './images/bad/a.jpg',
+          fg: './images/Fantastic/a.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demob').wScratchPad({
+          bg: './images/bad/b.jpg',
+          fg: './images/Fantastic/b.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#democ').wScratchPad({
+          bg: './images/bad/c.jpg',
+          fg: './images/Fantastic/c.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+
+        $('#demod').wScratchPad({
+          bg: './images/bad/9.jpg',
+          fg: './images/Fantastic/d.jpg',
+          'cursor': 'url("./cursors/coin.png") 5 5, default',
+          scratchMove: function (e, percent) {
+            $('#demo2-percent').html(percent);
+
+            if (percent > 70) {
+              this.clear();
+            }
+          }
+        });
+      </script>
+      
+    </div>
+  </div>
+
+  <!-- footstart -->
+  <footer>
+    <div id="footer-icons">
+      <!--a id="youtube-icon" href="http://websanova.com/youtube" target="_blank"></a-->
+      <a id="stumbleupon-icon" href="http://websanova.com/stumbleupon" target="_blank"></a>
+      <a id="linkedin-icon" href="http://websanova.com/linkedin" target="_blank"></a>
+      <a id="facebook-icon" href="http://websanova.com/facebook" target="_blank"></a>
+      <a id="googleplus-icon" href="http://websanova.com/googleplus" target="_blank"></a>
+      <a id="twitter-icon" href="http://websanova.com/twitter" target="_blank"></a>
+      <a id="github-icon" href="http://websanova.com/github" target="_blank"></a>
+      <a id="rss-icon" href="http://websanova.com/feed" target="_blank"></a>
+    </div>
+  </footer>
+  <!-- footend -->
+</body>
+</html>
